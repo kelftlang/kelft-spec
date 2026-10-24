@@ -1,0 +1,17 @@
+Kelft website and specification licensing
+========================================
+
+Copyright (c) 2026 Kelft contributors.
+
+Except where otherwise identified, first-party software is available under
+either the MIT license (LICENSE-MIT) or the Apache License, Version 2.0
+(LICENSE-APACHE), at your option: SPDX-License-Identifier: MIT OR Apache-2.0.
+
+First-party documentation prose, including website pages and current and
+versioned specifications, is licensed under CC-BY-4.0 (LICENSES/CC-BY-4.0.txt).
+First-party copyable code blocks and examples use MIT-0 (LICENSES/MIT-0.txt),
+unless explicitly identified otherwise.
+
+Existing notices and third-party terms take precedence. Dependencies and
+Brandmark artwork retain their own terms. These grants do not grant trademark
+rights. See licensing.json, docs/licensing.md, and TRADEMARKS.md.

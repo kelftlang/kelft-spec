@@ -1,5 +1,11 @@
 # Kelft website and specification
 
+**Build with AI. Stay in control.** Kelft is an AI-native, intent-first programming
+language designed to keep people in control of AI-generated software. Its
+introduction connects practical programming with explicit requirements, trusted
+checks and human acceptance, while distinguishing development workflows from
+the components available in a particular compiler release.
+
 The source for [www.kelft.com](https://www.kelft.com): Kelft’s introduction,
 getting-started guide, and language specification. The
 [public Kelft compiler](https://github.com/kelftlang/kelft) is the upstream for

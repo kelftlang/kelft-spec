@@ -1,0 +1,61 @@
+{
+  "schema": "kelft.licensing/1",
+  "copyright": "Copyright (c) 2026 Kelft contributors",
+  "defaultFirstPartySoftware": "MIT OR Apache-2.0",
+  "rules": [
+    {
+      "paths": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "TRADEMARKS.md",
+        "docs/**",
+        "pages/*.md",
+        "spec/*.md",
+        "versions/*/spec/*.md",
+        "compiler-inputs/**/*.md",
+        "versions/*/compiler-inputs/**/*.md"
+      ],
+      "license": "CC-BY-4.0",
+      "scope": "first-party prose only"
+    },
+    {
+      "paths": [
+        "documentation code blocks",
+        "compiler-inputs/examples/**",
+        "versions/*/compiler-inputs/examples/**"
+      ],
+      "license": "MIT-0",
+      "scope": "first-party copyable examples"
+    }
+  ],
+  "exceptions": [
+    {
+      "paths": [
+        "public/**"
+      ],
+      "license": null,
+      "reason": "Official Brandmark artwork and provenance; see TRADEMARKS.md."
+    },
+    {
+      "paths": [
+        "**/node_modules/**",
+        "site/**",
+        ".vitepress/cache/**",
+        ".vitepress/dist/**",
+        ".vitepress/.temp/**"
+      ],
+      "license": null,
+      "reason": "Generated or third-party material retains its own terms."
+    }
+  ],
+  "precedence": "Existing notices and third-party terms take precedence. Exceptions override directory rules. Copyable documentation code blocks use MIT-0 unless otherwise identified. Intrinsic JSON and tooling use MIT OR Apache-2.0.",
+  "dependencyInventories": [
+    "pnpm-lock.yaml"
+  ],
+  "licenseTexts": [
+    "LICENSE-MIT",
+    "LICENSE-APACHE",
+    "LICENSES/CC-BY-4.0.txt",
+    "LICENSES/MIT-0.txt"
+  ]
+}
