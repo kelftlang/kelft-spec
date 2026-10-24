@@ -1,0 +1,24 @@
+{
+  "name": "kelft-spec",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "license": "(MIT OR Apache-2.0)",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "preview": "vitepress preview . --host 127.0.0.1",
+    "build:production": "node scripts/build.mjs --production",
+    "sync": "node scripts/upstream.mjs",
+    "snapshot": "node scripts/upstream.mjs snapshot",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "markdown-it": "14.1.0"
+  }
+}

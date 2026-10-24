@@ -1,0 +1,9 @@
+{
+  "schema": "kelft.spec-publication/1",
+  "version": "0.2.0",
+  "origin": "https://www.kelft.com",
+  "base": "/",
+  "retiredFiles": [
+    "publication-notes.md"
+  ]
+}

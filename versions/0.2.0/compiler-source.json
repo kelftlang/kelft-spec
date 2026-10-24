@@ -1,0 +1,216 @@
+{
+  "schema": "kelft.compiler-source/1",
+  "repository": "https://github.com/kelftlang/kelft",
+  "revision": "f567c21684362db37e0aa0a68e71e7614502c45a",
+  "status": "pinned",
+  "compilerVersion": "0.1.0-alpha.2",
+  "coreVersion": "0.1",
+  "intentVersion": "0.2",
+  "specificationVersion": "0.2.0",
+  "files": [
+    {
+      "source": "CONTRIBUTING.md",
+      "path": "compiler-inputs/CONTRIBUTING.md",
+      "sha256": "sha256:24991113bb24cde7945e6442dabf2ffc30c23e9cbc4443be7423a23bfa4ebab2",
+      "bytes": 1667
+    },
+    {
+      "source": "docs/install.md",
+      "path": "compiler-inputs/docs/install.md",
+      "sha256": "sha256:9f92db51a9da6cefeb8a2d3fc1d315000bca7051c7f6a1c5486bc67c4209e183",
+      "bytes": 2450
+    },
+    {
+      "source": "docs/licensing.md",
+      "path": "compiler-inputs/docs/licensing.md",
+      "sha256": "sha256:3f6b66c4b801e4b308d36d3613d2a4d5add932156f5097b6c8e907993d9ded2d",
+      "bytes": 2830
+    },
+    {
+      "source": "examples/hello.kelft",
+      "path": "compiler-inputs/examples/hello.kelft",
+      "sha256": "sha256:9cdfe7cfcd390c33677263e64692c20e4e23f4f17f81c86b90c68f455a6da6e4",
+      "bytes": 48
+    },
+    {
+      "source": "host/native/resource-contracts.json",
+      "path": "compiler-inputs/host/native/resource-contracts.json",
+      "sha256": "sha256:e4517b96673630967b27bd98e07faacdecc90b27861fedee8abebd94d977cebf",
+      "bytes": 1328
+    },
+    {
+      "source": "release.json",
+      "path": "compiler-inputs/release.json",
+      "sha256": "sha256:4ea1da80b164f0ee73ca01c5863557eafb69d86a6d5a3c62376db60a660c6346",
+      "bytes": 1145
+    },
+    {
+      "source": "spec/application-platform.md",
+      "path": "spec/application-platform.md",
+      "sha256": "sha256:535b5542704c469799b1880a9a55247354b1f7be4791dfa924249803391fc748",
+      "bytes": 10301
+    },
+    {
+      "source": "spec/browser.md",
+      "path": "spec/browser.md",
+      "sha256": "sha256:681f65341fbf8b55c885e8ebc6c21fffa1cd8e82e7ca63df7c08555d15f171eb",
+      "bytes": 2100
+    },
+    {
+      "source": "spec/compatibility.md",
+      "path": "spec/compatibility.md",
+      "sha256": "sha256:9893d91abbbf7b2bfbc70756152ae40200fbc3c856fb3417ab74d1e5fa46776a",
+      "bytes": 2664
+    },
+    {
+      "source": "spec/driver-protocol.md",
+      "path": "spec/driver-protocol.md",
+      "sha256": "sha256:b87d47c80099eeaaea1818213927241070826a9ff135b52635aaf5dacdabfa34",
+      "bytes": 4215
+    },
+    {
+      "source": "spec/examples.md",
+      "path": "spec/examples.md",
+      "sha256": "sha256:b650a0d27e6f5aee09eae711bddaf0e7334a7e6e5bc421e8f239e1228e5810e1",
+      "bytes": 1539
+    },
+    {
+      "source": "spec/intent-v0.2.md",
+      "path": "spec/intent-v0.2.md",
+      "sha256": "sha256:67b583eb12ddb4df05a0bcfc1e45659d11e46b2a716c7f155fc6bf51dafc9199",
+      "bytes": 24393
+    },
+    {
+      "source": "spec/intent.md",
+      "path": "spec/intent.md",
+      "sha256": "sha256:7cb5b2774fdbb7c225d0d60632063c1585de06a478234d27c5221f06f60a2708",
+      "bytes": 2207
+    },
+    {
+      "source": "spec/intrinsics.json",
+      "path": "spec/intrinsics.json",
+      "sha256": "sha256:6f9b5685fa8c3f0965cab9ed05528af653a45d4747b4838478cc3121c5100b25",
+      "bytes": 5284
+    },
+    {
+      "source": "spec/ir.md",
+      "path": "spec/ir.md",
+      "sha256": "sha256:c495ea9185ab39ffac30685ee753436a3272ebff0f92f2565b7aa30b00542910",
+      "bytes": 834
+    },
+    {
+      "source": "spec/language.md",
+      "path": "spec/language.md",
+      "sha256": "sha256:db5a0bfcd0686fc7127a5fad67fefead9ea8e26b09c27046e28b0fa665cd2ecf",
+      "bytes": 5594
+    },
+    {
+      "source": "spec/native-aggregate.md",
+      "path": "spec/native-aggregate.md",
+      "sha256": "sha256:1db6dadad92c571e46f2496eaa4ed6441f98498c7013b2da071ee39218786496",
+      "bytes": 7630
+    },
+    {
+      "source": "spec/native-artifacts.md",
+      "path": "spec/native-artifacts.md",
+      "sha256": "sha256:5e2d458f028257fc4fd414fa5dc8050bf6e94dcf7cb17b6c6f81a6e9bb12869e",
+      "bytes": 8570
+    },
+    {
+      "source": "spec/native-direct.md",
+      "path": "spec/native-direct.md",
+      "sha256": "sha256:8b328e0f59817eb0517acc36dba5b873aee9c0a833db6e5f56d05d2ca809eb15",
+      "bytes": 10996
+    },
+    {
+      "source": "spec/native-enum.md",
+      "path": "spec/native-enum.md",
+      "sha256": "sha256:280b0a8a69bb291053916e3e8297cb1bb64d97d12d2b2ef37e11074e75946f60",
+      "bytes": 4770
+    },
+    {
+      "source": "spec/native-filesystem.md",
+      "path": "spec/native-filesystem.md",
+      "sha256": "sha256:a8a63be1d0f7b57d4f2db2e412fce87ca505341757661dfc551e09a233a35770",
+      "bytes": 7379
+    },
+    {
+      "source": "spec/native-graph.md",
+      "path": "spec/native-graph.md",
+      "sha256": "sha256:397e89fd302db36e638a64728c8d1444c5b50db2ff731f0d36e3d432bd218469",
+      "bytes": 5022
+    },
+    {
+      "source": "spec/native-map.md",
+      "path": "spec/native-map.md",
+      "sha256": "sha256:0cdbf72947ac4edd12ec298999dbd56bef84ae54e6e15b8d12ad833fe154049f",
+      "bytes": 3747
+    },
+    {
+      "source": "spec/native-owned-storage.md",
+      "path": "spec/native-owned-storage.md",
+      "sha256": "sha256:e48b5f4b8bde9e9fec658f358a6f768440f44a6d201c7fd50c67425971cdf012",
+      "bytes": 8021
+    },
+    {
+      "source": "spec/native-paths.md",
+      "path": "spec/native-paths.md",
+      "sha256": "sha256:8ba60eb9342b82933c0f438db96081390e5da13e155eca118e21d9c3d445754b",
+      "bytes": 3665
+    },
+    {
+      "source": "spec/native-process.md",
+      "path": "spec/native-process.md",
+      "sha256": "sha256:cec1821705c3758fc72e145c8eb4618713141befb130c5439b0f9eb41394f333",
+      "bytes": 3127
+    },
+    {
+      "source": "spec/native-streams.md",
+      "path": "spec/native-streams.md",
+      "sha256": "sha256:5f081eef93fb438a12a1f4030f157fd37a3ba8055100d7ad60351d24cdcf8b24",
+      "bytes": 4087
+    },
+    {
+      "source": "spec/native-string.md",
+      "path": "spec/native-string.md",
+      "sha256": "sha256:8c449c5f165d893f757b3ec60149eb8442a2f9548bf61ed7d0408fc592eea22c",
+      "bytes": 8458
+    },
+    {
+      "source": "spec/native.md",
+      "path": "spec/native.md",
+      "sha256": "sha256:7a536ed28b3e21c479d1c401ff8330885478a8de2849411c231b6fe7345e546d",
+      "bytes": 2611
+    },
+    {
+      "source": "spec/publication-notes.md",
+      "path": "spec/publication-notes.md",
+      "sha256": "sha256:7306ddc34f55fa003759309299323eadb49499edc80885578d7a066bbd22cb66",
+      "bytes": 664
+    },
+    {
+      "source": "spec/README.md",
+      "path": "spec/README.md",
+      "sha256": "sha256:b72663329565c2b796690f76706d20eef0357e0a90a2f2beb863c932e9893165",
+      "bytes": 2516
+    },
+    {
+      "source": "spec/runtime.md",
+      "path": "spec/runtime.md",
+      "sha256": "sha256:77b44145e5a6251cdd6fc6433d9d6bc73c94138f22cf5442836487bf8b9e3eac",
+      "bytes": 3235
+    },
+    {
+      "source": "spec/services.md",
+      "path": "spec/services.md",
+      "sha256": "sha256:fddeefe40da8d57a74989ed49b868b241cc3d71f16e93eb74c9fbb78e6ee4173",
+      "bytes": 5224
+    },
+    {
+      "source": "spec/wasm.md",
+      "path": "spec/wasm.md",
+      "sha256": "sha256:8bc6792fb9785afa48ad3ecf105116a4ae3f0837ee81e31d1fa8c56f13525d06",
+      "bytes": 3917
+    }
+  ]
+}
