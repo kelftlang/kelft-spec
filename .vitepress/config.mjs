@@ -16,14 +16,19 @@ const navigation = prefix => [
   {text: 'Services', link: prefix + '/services'}, {text: 'Execution protocol', link: prefix + '/driver-protocol'}
 ];
 export default defineConfig({
-  title: 'Kelft', description: 'Intent, compiled. The Kelft language, public compiler, and specification.',
+  title: 'Kelft', description: 'Build with AI. Stay in control. An AI-native, intent-first programming language designed for safer, verifiable software under human control.',
   base: publication.base, srcDir: 'site', cleanUrls: false,
   sitemap: {hostname: publication.origin + publication.base},
-  head: [['link', {rel: 'icon', type: 'image/svg+xml', href: publication.base + 'favicon.svg'}]],
+  head: [
+    ['meta', {name: 'twitter:creator', content: '@EVMlord'}],
+    ['link', {rel: 'me', href: 'https://x.com/EVMlord'}],
+    ['link', {rel: 'icon', type: 'image/x-icon', href: publication.base + 'favicon.ico'}],
+    ['link', {rel: 'icon', type: 'image/svg+xml', href: publication.base + 'favicon.svg'}]
+  ],
   transformHead({pageData}) {
     const route = pageData.relativePath.replace(/(^|\/)index\.md$/, '$1').replace(/\.md$/, '.html');
     const url = publication.origin + publication.base + route;
-    return [['link', {rel: 'canonical', href: url}], ['meta', {property: 'og:url', content: url}], ['meta', {property: 'og:title', content: pageData.title || 'Kelft'}], ['meta', {property: 'og:description', content: pageData.description || 'Intent, compiled.'}]];
+    return [['link', {rel: 'canonical', href: url}], ['meta', {property: 'og:url', content: url}], ['meta', {property: 'og:title', content: pageData.title || 'Kelft'}], ['meta', {property: 'og:description', content: pageData.description || 'Build with AI. Stay in control.'}]];
   },
   transformPageData(pageData) {
     const source = pageSource(root, pageData.relativePath);
