@@ -2,5 +2,18 @@
   "repository": "kelftlang/kelft-branding",
   "path": "favicon/favicon.svg",
   "sha256": "5115ffcf5a062dd1256fb636bcf434218d8f5d0acda4d6e8610104b7625a743d",
-  "terms": "Official brand identification only; see TRADEMARKS.md. No font software is included."
+  "terms": "Official brand identification only; see TRADEMARKS.md. No font software is included.",
+  "derivatives": [
+    {
+      "path": "favicon.ico",
+      "source": "favicon.svg",
+      "sha256": "f39ce640dc4978305a5f7da64441c8be1fd05de5bba76da7f21ef19b14d88696",
+      "sizes": [
+        16,
+        32,
+        48
+      ],
+      "method": "Existing SVG rasterized with Chromium Canvas 2D at each size; PNG frames packaged in an ICO container. Artwork and brand terms unchanged."
+    }
+  ]
 }
